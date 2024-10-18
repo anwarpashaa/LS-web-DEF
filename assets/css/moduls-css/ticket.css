@@ -1,0 +1,238 @@
+
+
+.ticket-text h2 {
+  color: #fff000;
+  font-size: 54px;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+.ticket-text {
+	background: #AF228A;
+	height: 400px;
+	width: 100%;
+	padding-top: 20px;
+}
+.ticket-img img {
+  width: 100%;
+  height: 400px;
+}
+.ticket-text p {
+  color: #fff;
+  margin-bottom: 28px;
+}
+.ticket-text > span {
+  display: block;
+  color: #fff;
+  font-family: 'ParalucentBold';
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.ticket-select a {
+  display: inline-block;
+  width: 508px;
+  background: #E1CE00;
+  height: 55px;
+  line-height: 55px;
+  border-radius: 5px;
+  font-size: 27px;
+  color: #782996;
+  text-transform: uppercase;
+  font-family: 'ParalucentBold';
+  margin-top: 15px;
+}
+.ticket-select a:hover {
+  background: #fff;
+}
+.ticket-select a img {
+  margin-left: 10px;
+  position: relative;
+  top: -2px;
+}
+.ticket-select .nice-select {
+	text-align: left !important;
+	font-size: 20px;
+	color: #782996;
+	line-height: 55px;
+	height: 55px;
+	font-family: 'futurabdcnbt';
+	background: #fff;
+	width: 508px;
+	margin: auto;
+	padding: 0 15px;
+	border-radius: 5px;
+	float: none;
+}
+.nice-select .list {
+	border-radius: 5px;
+	margin-top: 5px;
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: 1px solid transparent;
+	right: 0;
+	text-align: left !important;
+}
+.nice-select .option {
+	line-height: 40px;
+	padding-left: 15px;
+	padding-right: 15px;
+	color: #782996;
+	text-align: left;
+}
+.nice-select::after {
+	content: '';
+	display: block;
+	height: 11px;
+	margin-top: -4px;
+	pointer-events: none;
+	position: absolute;
+	right: 12px;
+	top: 50%;
+	width: 13px;
+	border: 0;
+	background-image: url("../moduls-css/tringle.png");
+	transform: inherit;
+	text-align: center;
+	background-size: 13px;
+}
+.nice-select.open::after {
+	transform: inherit;
+}
+.nice-select::before {
+	position: absolute;
+	content: '';
+	width: 40px;
+	height: 100%;
+	background: #F0DF00;
+	right: 0;
+	top: 0;
+	border-radius: 0 5px 5px 0px;
+}
+
+.ticket-select.ticket-select-2 a {
+  background: linear-gradient(to bottom, rgba(225,2,167,1) 0%,rgba(183,29,142,1) 100%);
+  color: #fff;
+}
+.ticket-text.ticket-text-2 {
+  background: #FFF000;
+  padding-top: 15px;
+}
+.ticket-select.ticket-select-2 a:hover {
+  background: linear-gradient(to top, rgba(225,2,167,1) 0%,rgba(183,29,142,1) 100%);
+}
+.ticket-text.ticket-text-2 p {
+  color: #000000;
+}
+.ticket-text.ticket-text-2 h2 {
+  color: #782996;
+  margin-bottom: 30px;
+}
+
+
+/* responsive here */
+    /* laptop */
+  @media (max-width: 1400px){
+    .ticket-text h2 {
+      font-size: 46px;
+    }
+    .ticket-text p {
+      font-size: 22px;
+    }
+    .ticket-text {
+      height: 360px;
+    }
+    .ticket-img img {
+      height: 360px;
+    }
+    .ticket-text.ticket-text-2 p {
+      margin-bottom: 15px;
+    }
+    .ticket-text.ticket-text-2 h2 {
+      margin-bottom: 20px;
+    }
+  }
+  
+    /* mini laptop */
+  @media (max-width: 1200px){
+    .ticket-img img {
+      height: 300px;
+    }
+    .ticket-text {
+      height: 300px;
+      padding-top: 15px;
+    }
+    .ticket-text h2 {
+      font-size: 30px;
+    }
+    .ticket-text p {
+      font-size: 16px;
+      margin-bottom: 15px;
+    }
+    .ticket-select .nice-select {
+      font-size: 18px;
+      line-height: 45px;
+      height: 45px;
+      width: 420px;
+    }
+    .ticket-select a {
+      width: 420px;
+      height: 45px;
+      line-height: 45px;
+      font-size: 18px;
+    }
+    .ticket-text.ticket-text-2 p {
+      margin-bottom: 10px;
+    }
+
+  }
+  
+    /* tablet */
+  @media (max-width: 992px){
+    .ticket-text h2 {
+      font-size: 24px;
+      margin-bottom: 15px;
+    }
+    .ticket-text p {
+      font-size: 14px;
+      margin-bottom: 15px;
+    }
+    .ticket-select .nice-select {
+      width: 280px;
+    }
+    .ticket-select a {
+      width: 280px;
+    }
+    .ticket-text.ticket-text-2 h2 {
+      margin-bottom: 15px;
+    }
+    .ticket-text {
+      height: 280px;
+    }
+    .ticket-img img {
+      height: 280px;
+    }
+    
+  }
+  
+  /* mobile version */
+  @media(max-width: 767px){
+    .ticket-img img {
+      height: auto;
+    }
+    .ticket-text {
+      height: auto;
+      padding: 20px 15px;
+    }
+    .ticket-text h2 {
+      font-size: 26px;
+      margin-bottom: 20px;
+    }
+    .ticket-text p {
+      font-size: 16px;
+      margin-bottom: 15px;
+    }
+    .ticket-text p br {
+      display: none;
+    }
+  
+  }

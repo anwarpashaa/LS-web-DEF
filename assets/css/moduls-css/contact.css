@@ -1,0 +1,101 @@
+
+
+.contact-title h2 {
+  font-size: 60px;
+  color: #af228a;
+  margin-bottom: 30px;
+  line-height: 1;
+}
+.contact-title p {
+  line-height: 1;
+  color: #000000;
+  font-size: 30px;
+  font-family: 'ParalucentCondDemiBold';
+}
+.input-style input {
+  border-radius: 5px;
+  background-image: -moz-linear-gradient( 90deg, rgb(221,221,221) 0%, rgb(255,255,255) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(221,221,221) 0%, rgb(255,255,255) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(221,221,221) 0%, rgb(255,255,255) 100%);
+  width: 100%;
+  height: 56px;
+  border: 1px solid rgb(150, 150, 150);
+  text-align: center;
+  color: #000000;
+  font-size: 21px;
+  font-family: "Quattrocento Sans", sans-serif;
+}
+
+.contact-btn button {
+  background: linear-gradient(to bottom, rgba(225,2,167,1) 0%,rgba(183,29,142,1) 100%);
+  color: #fff;
+  display: inline-block;
+  width: 508px;
+  height: 55px;
+  line-height: 55px;
+  border-radius: 5px;
+  font-size: 27px;
+  text-transform: uppercase;
+  font-family: 'ParalucentBold';
+  border: 0;
+}
+.contact-btn button img {
+  position: relative;
+  top: -2px;
+  left: 50px;
+}
+.contact-btn button:hover {
+  background: linear-gradient(to top, rgba(225,2,167,1) 0%,rgba(183,29,142,1) 100%);
+}
+
+/* responsive here */
+    /* mini laptop */
+  @media (max-width: 1200px){
+      
+  }
+  
+    /* tablet */
+  @media (max-width: 992px){
+    .contact-title h2 {
+      font-size: 50px;
+      margin-bottom: 20px;
+    }
+    .contact-title p {
+      font-size: 24px;
+    }
+    .contact-btn button {
+      width: 350px;
+    }
+    .contact-btn button img {
+      left: 20px;
+    }
+  }
+  
+  /* mobile version */
+  @media(max-width: 767px){
+    .contact-title h2 {
+      font-size: 32px;
+    }
+    .contact-title p {
+      font-size: 20px;
+      line-height: 1.3;
+    }
+    .input-style {
+      margin-bottom: 15px;
+    }
+    .contact-btn {
+      margin-top: 20px;
+    }
+    .contact-btn button {
+      width: 300px;
+      font-size: 25px;
+    }
+    .contact-btn button img {
+      left: 16px;
+      width: 25px;
+    }
+    .contact-area {
+      padding-bottom: 100px;
+    }
+  
+  }
